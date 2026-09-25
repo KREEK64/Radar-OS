@@ -1,6 +1,0 @@
-#!/bin/sh
-set -e
-
-if ! id stormradar >/dev/null 2>&1; then
-  useradd --create-home --shell /bin/bash stormradar
-fi

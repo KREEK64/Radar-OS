@@ -1,0 +1,6 @@
+#!/bin/sh
+
+xset -dpms
+xset s off
+xset s noblank
+chromium --no-first-run --disable-session-crashed-bubble --kiosk --app="file:///opt/stormradar/index.html" &
